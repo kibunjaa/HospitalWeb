@@ -27,6 +27,43 @@ h1 {
   margin-top: 10px;
   font-weight: bold;
 }
+/* CSS code for form styling */
+h1 {
+  text-align: center;
+}
+
+.appointment-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.appointment-form label {
+  display: block;
+  margin-top: 10px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.appointment-form input[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+}
+
+.appointment-form input[type="submit"]:hover {
+  background-color: #45a049;
+}
 
 
 
